@@ -1,42 +1,49 @@
 @charset "UTF-8";
 
-  $main_width: 700px;
+$main_width: 700px;
 
-  body {
-    margin-right: auto;
-    margin-left: auto;
-    margin: 0;
-    padding: 0;
-    background: #fff;
-    color: #a9a9a9;
-  }
+body {
+  margin: 0;
+  padding: 0;
+  width:100%;
+  background: #fff;
+  color: #a9a9a9;
+}
 
-  h1 {
-    text-align: center;
-  }
+h1 {
+  text-align: center;
+}
 
-  #mainvisual {
-    margin-right: auto;
-    margin-left: auto;
-    width: 700px;
-    height: 450px;
-        .mainvisual {
-          width:auto;
-          height:auto;
-          width: 100%;
-          height: 100%;
-        }
-  }
+#mainvisual {
+  width: 700px;
+  height: 450px;
+      .mainvisual {
+        width:auto;
+        height:auto;
+        width: 100%;
+        height: 100%;
+      }
+}
 
-  #maincontent {
-    margin-right: auto;
-    margin-left: auto;
-    width: $main_width;
-    height: 450px;
-    text-align: center;
-  }
+#maincontent {
+  padding: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  width: $main_width;
+  text-align: center;
 
-  .charname {
-    height: 300px;
-    text-align: center;
+  .result {
+    display: none;
+    .catImage {
+      padding: 10px;
+      width: 300px;
+      height: 200px;
+      margin: auto;
+    }
+
+    .charname {
+      padding: 10px;
+      text-align: center;
+    }
   }
+}

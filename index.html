@@ -6,11 +6,24 @@
   <link rel="stylesheet" href="css/main.css">
   <title>practice room</title>
 </head>
+
 <body>
   <header>
   </header>
-    <h1>practice room</h1>
+    <h1>practiceRoom</h1>
+      <div id="mainvisual">
+        <image src="images/mainvisual.jpg" class="mainvisual" alt="practiceRoom">
+      </div>
+    <div id="maincontent">
+      <input type="text" class="inputSpace" placeholder="数字を入力してください" onKeyup="this.value=this.value.replace(/[^0-9]+/i,'')"></input>
+        <button class="checkbtn">check!</button>
+          <div class="charname">default</div>
+    </div>
   <footer>
   </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="js/text.js"></script>
+
 </body>
 </html>

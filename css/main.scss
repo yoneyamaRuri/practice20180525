@@ -15,14 +15,16 @@ h1 {
 }
 
 #mainvisual {
-  width: 700px;
-  height: 450px;
+  text-align:center;
       .mainvisual {
-        width:auto;
-        height:auto;
-        width: 100%;
-        height: 100%;
+        width: 700px;
+        height: 450px;
       }
+}
+
+
+input.inputSpace {
+  width: 250px;
 }
 
 #maincontent {
@@ -31,7 +33,6 @@ h1 {
   margin-left: auto;
   width: $main_width;
   text-align: center;
-
   .result {
     display: none;
     .catImage {
@@ -40,7 +41,6 @@ h1 {
       height: 200px;
       margin: auto;
     }
-
     .charname {
       padding: 10px;
       text-align: center;

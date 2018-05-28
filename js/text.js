@@ -39,12 +39,12 @@
     // } else {
     //   catName = cats[1].name;
     // }
-    //
+
     // var catName = (i === 1) ? cats[0].name :  cats[1].name;
 
     var catName = cats[i].name;
 
-    $('#maincontent .charname').text(catName);
+    $('#maincontent .charname').attr(catName);
 
     var catImage = cats[i].img;
 

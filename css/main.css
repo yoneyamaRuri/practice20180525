@@ -11,15 +11,16 @@ h1 {
 }
 
 #mainvisual {
+  text-align: center;
+}
+
+#mainvisual .mainvisual {
   width: 700px;
   height: 450px;
 }
 
-#mainvisual .mainvisual {
-  width: auto;
-  height: auto;
-  width: 100%;
-  height: 100%;
+input.inputSpace {
+  width: 250px;
 }
 
 #maincontent {
